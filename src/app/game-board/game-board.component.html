@@ -1,0 +1,7 @@
+<a class="replay-link" (click)="startGame()" routerLink="/game" data-tid="Menu-newGame">Начать заново</a>
+<span class="score-text">Очки:</span>
+<span class="score-count" data-tid="Menu-scores">{{currentScore}}</span>
+<div class="game-board" data-tid="Deck">
+    <img *ngFor="let card of playCards" (click)="onSelect(card)" class="card" 
+        src="assets/cards/{{card.name}}.png" data-tid="Card-flipped">
+</div>

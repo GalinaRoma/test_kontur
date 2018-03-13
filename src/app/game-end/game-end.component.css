@@ -1,0 +1,38 @@
+.end-img
+{
+    position: absolute;
+    left: 389px;
+    top: 94px;
+    display: block;
+    width: 503px;
+    height: 262px;
+}
+
+.final-score
+{
+    position: absolute;
+    left: 488.5px;
+    top: 358px;
+    width: 304px;
+    height: 70px;
+    text-align: center;
+    font: 24px 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+.replay-button
+{
+    position: absolute;
+    left: 576px;
+    top: 468px;
+    width: 128px;
+    height: 42px;
+    border-radius: 4px;
+    font: 700 16px 'Open Sans', sans-serif;
+    color: #1C7430;
+}
+
+.replay-button:hover
+{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}

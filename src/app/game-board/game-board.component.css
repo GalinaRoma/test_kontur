@@ -1,0 +1,66 @@
+.replay-link
+{
+    width: 102px;
+    height: 19px;
+    position: absolute;
+    display: block;
+    left: 290px;
+    top: 54px;
+    text-decoration: none;
+    letter-spacing: -.25px;
+    color: #ffffff;
+    padding: 0;
+    font: 14px 'Open Sans', sans-serif;
+}
+
+.replay-link:hover
+{
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.score-text
+{
+    position: absolute;
+    left: 926px;
+    top: 54px;
+    width: 44px;
+    height: 19px;
+    font: 14px 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.score-count
+{
+    position: absolute;
+    left: 980px;
+    top: 55px;
+    width: 10px;
+    height: 18px;
+    font: 14px 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.game-board
+{
+    position: absolute;
+    left: 290px;
+    top: 90px;
+    display: flex;
+    width: 698px;
+    height: 480px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.card
+{
+    display: block;
+    width: 100px;
+}
+
+.hidden-elem
+{
+    visibility: hidden;
+}

@@ -1,0 +1,39 @@
+.start-img
+{
+    position: absolute;
+    left: 389px;
+    top: 94px;
+    display: block;
+    width: 503px;
+    height: 262px;
+}
+
+.game-name
+{
+    position: absolute;
+    left: 531px;
+    top: 376px;
+    width: 219px;
+    height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 28px 'Open Sans', sans-serif;
+    color: #FFFFFF;
+}
+
+.start-button
+{
+    position: absolute;
+    left: 569px;
+    top: 448px;
+    width: 144px;
+    height: 42px;
+    border-radius: 4px;
+    font: 700 16px 'Open Sans', sans-serif;
+    color: #1C7430;
+}
+
+.start-button:hover
+{
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
